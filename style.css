@@ -2,8 +2,10 @@
     margin:0px;
     padding:0px;
   }
+  
   body,html{
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
     height: 99.5vh;
     width: 100vw;
     
@@ -42,7 +44,20 @@
     color: white;
     text-decoration: underline;
   }
+  #burguer{
+    
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burguer:hover{
+    
+    color: black;
+}
   nav{
+    display: none;
     padding: 5px 3px;
     margin: 3px 0px;
   }
