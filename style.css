@@ -3,7 +3,8 @@
     padding:0px;
   }
   body,html{
-    height: 100vh;
+    overflow-x: hidden;
+    height: 100%;
     width: 100vw;
     
     background: url(https://i0.wp.com/www.iparh.com/wp-content/uploads/2018/06/fundo-azul-curvas-escuro.jpg?ssl=1);
@@ -19,7 +20,7 @@
     background: linear-gradient(90deg, rgba(26,75,158,1) 13%, rgba(1,77,244,1) 55%);
     color: white;
     
-    width: 99.1vw;
+    width: 99.8vw;
     margin-bottom: 15px;
     padding: 5px;
   }
@@ -73,7 +74,7 @@
   }
   
   main{
-    width: 100xw;
+    width: 90%;
     margin: auto;
     padding: 3px;
     
@@ -94,6 +95,6 @@
     padding: 5px;
   }
   iframe{
-    width: 80%;
+    width: 89%;
     height: 700px;
   }
