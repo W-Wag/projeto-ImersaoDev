@@ -29,18 +29,18 @@
 
         <nav id="nav">
 
-            <a class='botao' href='home.html' target='quadro' onclick="ClickButton()">Home </a>
+            <a class='botao' href='home.html' target='quadro' onclick="clickMenu()">Home </a>
 
 
-            <a class='botao' href='https://w-wag.github.io/imersaoDev-ConversorDeMoedas/' target='quadro' onclick="ClickButton()">Conversor de
+            <a class='botao' href='https://w-wag.github.io/imersaoDev-ConversorDeMoedas/' target='quadro' onclick="clickMenu()">Conversor de
                 moedas </a>
 
 
-            <a class='botao' href='https://w-wag.github.io/imersaoDev-Mentalista/' target='quadro' onclick="ClickButton()">Mentalista </a>
+            <a class='botao' href='https://w-wag.github.io/imersaoDev-Mentalista/' target='quadro' onclick="clickMenu()">Mentalista </a>
 
 
 
-            <a class='botao' href='https://w-wag.github.io/imersaoDev-Aluraflix/' target='quadro' onclick="ClickButton()">Aluraflix </a>
+            <a class='botao' href='https://w-wag.github.io/imersaoDev-Aluraflix/' target='quadro' onclick="clickMenu()">Aluraflix </a>
 
 
             <a class='botao' href='https://w-wag.github.io/imersaoDev-TabelaDeClassificacao/' target='quadro' onclick="ClickButton()">Tabela
@@ -52,9 +52,8 @@
     </header>
 
     <main>
-        <section id='paisagem'>
+        
             <iframe  src='home.html' id='quadro' name='quadro'> </iframe>
-        </section>
 
     </main>
     <script>
@@ -66,14 +65,6 @@
             nav.style.display = 'block'
            }
 
-        }
-        function ClickButton(){
-            if(nav.style.display === 'block'){
-            nav.style.display = 'none'
-           }
-           else{
-            nav.style.display = 'block'
-           }
         }
     </script>
 
