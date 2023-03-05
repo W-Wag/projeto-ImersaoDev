@@ -88,12 +88,10 @@
   main{
     
     width: 80%;
+    height: 65%;
     margin: auto;
     padding: 3px;
-    height: 65%;
-    
-    
-    
+
   }
   
   section > h2 {
